@@ -1,0 +1,75 @@
+baseURL = "https://localhost:1313"
+languageCode = "en-us"
+title = "TMS Media"
+disablePathToLower = false
+
+# Agar front-matter pakai format YAML
+MetaDataFormat = "yaml"
+
+# untuk apply temanya
+themesDir = "themes"
+theme = "deku"
+
+# Disqus shortcode
+# Disable comments for any individual post by adding "comments: false" in its frontmatter
+disqusShortname = "tmsmedia"
+
+
+
+# Number of blog posts in each pagination page
+paginate = 6
+
+[permalinks]
+
+# Configures post URLs
+post = "/:slug/"
+
+# Make tags and categories work
+[indexes]
+    tag = "tags"
+    category = "categories"
+
+[params]
+
+    # If false, all of blog post will appear on front page (and in pagination)
+    truncate = true
+
+    # Author's name (appears in meta tags and under posts)
+    author = "Muslih TM"
+
+    # This text appears in site header under website title
+    subtitle = "Blog bagi-bagi tips dan trik singkat"
+
+    # Search engine URL
+    searchEngineURL = "https://www.google.com/search"
+
+    # Text of the "Continue Reading" label. &rarr; == right arrow, but it gets messed up in the string so it was added to index.html manually
+    continueReadingText = "Baca selengkapnya..."
+
+    # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
+    googleAnalytics = "UA-XXXXX-X"
+
+  # Switch to true to enable RSS icon link
+    rss = true
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the "rss" setting
+  textrss = false
+
+    # Website's default description
+    defaultDescription = ""
+
+    # Populate this with your own search keywords - these will appear in meta tags
+    # defaultKeywords = ["keyword1" , "keyword2" , "keyword3" , "keyword4"]
+
+  # Set to true to hide ReadingTime on posts
+  disableReadingTime = false
+
+  # Set to true to disable downloading of remote Google fonts
+  disableGoogleFonts = false
+
+  [author] 
+      name =  "Muhammad Taufiq Muslih"
+      homepage = "http://inideku.id"
+      bio = "lagi nyoba diet"
+      image = "https://lh3.googleusercontent.com/-UERi6g9-cxM/XYWAf2UCAII/AAAAAAAAGXo/AznAtvFFHSQcuNrvgxVXerprgC-MfCNcgCEwYBhgLKtQDAL1OcqyZ08UvXAr3YHmSxtW4KK7GGM_K8PLdqtt01AiBv_0y8B8ZAG_p-pMT4WCupL8GWmlYRUPZCdWzQ6kcuMFl73x7o888vLcRozF_z-y6CR0V6Q6eE4iJmsoZ6zJCYqlHfzvGcG9nD5C2K8hTCzVDwDCgnsCpO71p3G_8vRTelVxd8MysPBAhK4Ksf9LJd_Fp8SWxH6h-ex2YgGfC0OeX4T-ollkpY-K5E_tjE-JKopc64FhT0xR8dVywwyVJ3x16-r-2qXKI86vQEJm6Wl8i2CfAgFp3SSUEO9pJw-MZPgBfjk8T0WoX9bkWYo8iEzja6m7IZCBCz8HjvWoHsqLfguW6m74evBZJNyOqkxim9hla2NTjkvaFKmBw9EF5modzTJUfMF_ItyGMgb7J9N1nRuYYMjRYhbNA4_am76-xFV3xOtJq1aOh4W6FdLe5LtuYYYcNHNWeU7mdCK6_NBlRK8o2IjNExetyJNuLoMExVvVmMDvXLB5DDcPju5nku7OFI-RuxEXdhZeXeDNmnuRcb5NnmcUYT6md2J1qDgusbIZxIjlPL6mh3TQ1U3fwzMZHT3MLUA1h565aJWFAEWFbqQF2vkHwVrxh95-MvVOf9L0yMIbn8P8F/w278-h280-p/2019-09-20.jpg"
