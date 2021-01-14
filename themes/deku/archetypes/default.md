@@ -11,6 +11,6 @@ categories:
     - Pemrograman
 
 
-image: https://placeholder.pics/svg/320x160
-thumbnail: https://placeholder.pics/svg/320x160
+image: http://via.placeholder.com/640x360
+thumbnail: https://via.placeholder.com/320
 ---

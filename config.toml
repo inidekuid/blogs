@@ -67,6 +67,7 @@ post = "/:slug/"
 
   # Set to true to disable downloading of remote Google fonts
   disableGoogleFonts = false
+  
 
   [author] 
       name =  "MT Muslih"

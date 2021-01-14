@@ -8,7 +8,7 @@
                     <div class="card">
                         <a href="{{ .RelPermalink }}">
                         <img class='card-img-top' 
-                            src='{{ if eq .params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .params.Image}}{{end}}' alt='{{ .Title }}'>
+                            src='{{ if eq .Params.Image "" }}https://placeholder.pics/svg/320x160{{else}}{{ .Params.Image}}{{end}}' alt='{{ .Title }}'>
                         </a>
                         <div class="card-body">
                             <h4 class="card-title">
